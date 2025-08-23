@@ -1,0 +1,42 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block title %} Servicios {% endblock title %}
+
+{% block content %}
+{% include "core/includes/header.html" %}
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+
+            <!-- title/constant -->
+            <div class="text-center mx-auto mb-5 wow fadeInUp max-width-600" data-wow-delay="0.1s">
+                <p class="d-inline-block bg-secondary text-primary py-1 px-4">Servicios</p>
+                <h1 class="text-uppercase">Qué encontrarás en nuestra peluquería</h1>
+            </div>
+            <!-- End title/constant-->
+
+            <!-- Services -->
+            <div class="row g-4">
+                {% for service in services %}
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0">
+                        <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center width-height-60">
+                            <img class="img-fluid" src="{{ service.img.url }}" width="" height="" alt="">
+                        </div>
+                        <div class="ps-4">
+                            <h3 class="text-uppercase mb-3">{{ service.title }}</h3>
+                            <p>{{ service.description }}</p>
+                            <span class="text-uppercase text-primary">Desde: {{ service.price }}€</span>
+                        </div>
+                        <a class="btn btn-square" href=""><i class="fa fa-plus text-primary"></i></a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <!-- End Services -->
+        </div>
+    </div>
+    <!-- Service End -->
+
+{% endblock content %}

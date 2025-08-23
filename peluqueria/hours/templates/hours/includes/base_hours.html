@@ -1,0 +1,38 @@
+{% load static %}
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-0">
+
+                <!-- Info --> 
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="h-100">
+                        <img class="img-fluid h-100" src="{{ info_hour.img.url }}" width="" height="" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-secondary h-100 d-flex flex-column justify-content-center p-5">
+                        <p class="d-inline-flex bg-dark text-primary py-1 px-4 me-auto">{{ info_hour.title }}</p>
+                        <h1 class="text-uppercase mb-4">{{ info_hour.description }}</h1>
+                <!-- End Info-->
+
+                        <div>
+                            <!-- Hours -->
+                            {% for hour in hours_hours %}
+                                <div class="d-flex justify-content-between border-bottom py-2">
+                                    <h6 class="text-uppercase mb-0"> {{ hour.day }} </h6>
+                                    {% if hour.open and hour.close %}
+                                        <span class="text-uppercase">{{ hour.open|time:"H:i" }} AM - {{ hour.close|time:"H:i" }} PM</span>
+                                    {% else %}
+                                        <span class="text-uppercase">Cerrado</span>
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+                            <!-- End Hours -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
