@@ -56,13 +56,15 @@ Este proyecto es el backend completo de una web de peluquería, desarrollado ín
 # 📬 Gestión de correos
 El proyecto incluye lógica para el envío de correos electrónicos (por ejemplo, confirmaciones de citas).
 Recuerda configurar los parámetros SMTP en tu settings.py:
+
+```
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.tuservidor.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'tuemail@dominio.com'
 EMAIL_HOST_PASSWORD = 'tucontraseña'
-
+```
 
 # 📄 Licencia de Uso – Backend Web de Peluquería
 
