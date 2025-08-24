@@ -67,32 +67,47 @@ EMAIL_HOST_USER = 'tuemail@dominio.com'
 EMAIL_HOST_PASSWORD = 'tucontraseña'
 ```
 
-# 📄 Licencia de Uso – Backend Web de Peluquería
+# 📄 Licencia – Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-Este proyecto ha sido desarrollado por **Jobab Hacomar Izquier Torres** y se distribuye bajo los siguientes términos:
+Este proyecto de backend ha sido desarrollado por **Jobab Hacomar Izquier Torres** y se encuentra bajo la licencia **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 
-## ✅ Permisos concedidos
+## ✅ Permisos otorgados
 
-Se permite:
+Puedes:
 
-- Usar el código fuente del backend para fines personales, educativos o de mejora técnica.
-- Modificar el código para adaptarlo a otros proyectos no comerciales.
-- Compartir el proyecto con otros desarrolladores, siempre que se mantenga esta licencia y se respete la atribución.
+- **Compartir**: copiar y redistribuir el material en cualquier medio o formato.
+- **Adaptar**: remezclar, transformar y construir a partir del material.
+
+Siempre que:
+
+- Se dé **crédito adecuado** al autor original.
+- Se incluya un enlace a esta licencia.
+- Se indique si se han realizado cambios.
 
 ## ❌ Restricciones
 
-No se permite:
+No puedes:
 
-- Utilizar este proyecto con fines comerciales o lucrativos.
-- Vender, sublicenciar o distribuir el código como parte de un producto o servicio comercial.
-- Eliminar, modificar u ocultar la atribución al autor original del backend (**Jobab Hacomar Izquier Torres**).
-- Utilizar el frontend incluido (plantilla HTML/CSS/JS) sin respetar la licencia de sus creadores originales.
+- Usar el material con **fines comerciales**.
+- Aplicar restricciones legales o tecnológicas que impidan a otros hacer lo que permite esta licencia.
 
 ## 📌 Atribución
 
-Toda copia, modificación o redistribución del backend debe incluir una referencia clara al autor original:
+Ejemplo recomendado de atribución:
 
-> Backend desarrollado por **Jobab Hacomar Izquier Torres** – Proyecto Web de Peluquería
+> Backend desarrollado por **Jobab Hacomar Izquier Torres** – Licencia CC BY-NC 4.0  
+> [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+
+## 🔗 Enlace oficial
+
+Consulta los términos completos de la licencia en el sitio oficial de Creative Commons:  
+👉 [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+
+---
+
+Este archivo cubre exclusivamente el backend desarrollado por **Jobab Hacomar Izquier Torres**. La plantilla HTML utilizada en el frontend tiene su propia licencia independiente, detallada a continuación.
+
+Gracias por respetar esta licencia y por reconocer el trabajo del autor original.
 
 ## 📦 Sobre el frontend
 
