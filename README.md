@@ -148,7 +148,7 @@ Para cualquier duda o consulta sobre el uso de la plantilla, puedes contactar di
 
 ---
 
-##❓ Preguntas Frecuentes sobre Licencias
+❓ Preguntas Frecuentes sobre Licencias
 ---
 ¿Puedo usar este proyecto para fines comerciales?
 Frontend: Sí, bajo la licencia CC BY 4.0 de HTML Codex, manteniendo la atribución requerida
