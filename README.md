@@ -148,20 +148,19 @@ Para cualquier duda o consulta sobre el uso de la plantilla, puedes contactar di
 
 ---
 
-❓ Preguntas Frecuentes sobre Licencias
----
-¿Puedo usar este proyecto para fines comerciales?
-Frontend: Sí, bajo la licencia CC BY 4.0 de HTML Codex, manteniendo la atribución requerida
+## ❓ Preguntas Frecuentes sobre Licencias
 
-Backend: No, sin permiso explícito del autor, debido a la licencia CC BY-NC 4.0
+**¿Puedo usar este proyecto para fines comerciales?**  
+- **Frontend**: Sí, bajo la licencia CC BY 4.0 de HTML Codex, manteniendo la atribución requerida.  
+- **Backend**: No, sin permiso explícito del autor, debido a la licencia CC BY-NC 4.0.
 
-¿Cómo atribuir correctamente?
-Backend: "Backend desarrollado por Jobab Hacomar Izquier Torres - CC BY-NC 4.0"
+**¿Cómo atribuir correctamente?**  
+- **Backend**: `"Backend desarrollado por Jobab Hacomar Izquier Torres – CC BY-NC 4.0" - https://github.com/JobabHIzquierTorres`.
+- **Frontend**: Sigue los requisitos específicos de HTML Codex (ver `LICENSE - HTML Codex.txt`).
 
-Frontend: Sigue los requisitos específicos de HTML Codex (Ver LICENSE - HTML Codex.txt)
+**¿Necesitas uso comercial o tienes otras preguntas?**  
+Contacta al autor del backend en: [https://www.linkedin.com/in/jhizquier/](https://www.linkedin.com/in/jhizquier/)
 
-¿Necesitas uso comercial o tienes otras preguntas?
-Contacta al autor del backend en: [https://www.linkedin.com/in/jhizquier/]
 
 ## 🛡️ Garantía
 
@@ -169,13 +168,3 @@ Este software se proporciona "tal cual", sin garantías de ningún tipo.
 El autor no se hace responsable de posibles daños derivados del uso del código.
 
 ---
-
-Si deseas utilizar este proyecto en un contexto comercial o tienes dudas sobre los términos,
-puedes contactar directamente con el autor para discutir posibles acuerdos.
-
-Gracias por respetar el trabajo y el esfuerzo invertido en este desarrollo.
-
-
-
-
-
