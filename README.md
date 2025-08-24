@@ -7,6 +7,7 @@ Este proyecto es el backend completo de una web de peluquería, desarrollado ín
 - Panel de administración de Django para:
   - Añadir y editar empleados
   - Gestionar precios y horarios
+  - Gestionar otra información que se muestra en la web
 - Gestión de correos electrónicos (confirmaciones, notificaciones, etc.)
 - Integración con plantilla frontend 
 - Estructura escalable y segura para despliegue en producción
@@ -21,10 +22,10 @@ Este proyecto es el backend completo de una web de peluquería, desarrollado ín
 ## 🚀 Instalación
 
 1. Clona el repositorio:
-   ```bash
+```bash
    git clone https://github.com/tuusuario/web-peluqueria-backend.git
    cd web-peluqueria-backend
-
+```
 2. Crea y activa un entorno virtual:
 ```bash
   python -m venv env
