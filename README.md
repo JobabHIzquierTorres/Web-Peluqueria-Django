@@ -56,7 +56,7 @@ Este proyecto es el backend completo de una web de peluquería, desarrollado ín
 
 # 📬 Gestión de correos
 El proyecto incluye lógica para el envío de correos electrónicos (por ejemplo, confirmaciones de citas).
-Recuerda configurar los parámetros SMTP en tu settings.py:
+Recuerda configurar los parámetros SMTP en tu settings.py (para desarrollo he usado MailTrap):
 
 ```
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -66,6 +66,18 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'tuemail@dominio.com'
 EMAIL_HOST_PASSWORD = 'tucontraseña'
 ```
+
+---
+## 🚧 Estado del Proyecto
+**Importante:** Este backend se encuentra actualmente en **fase de desarrollo** y no está preparado para despliegue en producción. 
+### Limitaciones actuales:
+- Configuración de seguridad básica, no optimizada para entornos productivos.
+- Falta de configuración para despliegue (servidores, base de datos, etc.).
+- Puede contener funcionalidades incompletas o errores.
+### Recomendaciones:
+- Utilizar únicamente en entornos de desarrollo y testing.
+- No utilizar en producción hasta completar las configuraciones de seguridad y despliegue.
+---
 
 # 📄 Licencia – Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
