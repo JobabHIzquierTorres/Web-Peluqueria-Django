@@ -23,7 +23,7 @@ Este proyecto es el backend completo de una web de peluquería, desarrollado ín
 
 1. Clona el repositorio:
 ```bash
-   git clone https://github.com/tuusuario/web-peluqueria-backend.git
+   git clone https://github.com/JobabHIzquierTorres/Web-Peluqueria-Django.git
    cd web-peluqueria-backend
 ```
 2. Crea y activa un entorno virtual:
